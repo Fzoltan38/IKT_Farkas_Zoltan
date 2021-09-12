@@ -5,3 +5,5 @@ mkdir
 rmdir
 dir
 cd ../Git_alapok -->könyvtár váltás
+rm -rf IKT_Farkas_Zoltan/.git/ -->klónozott mappa törlése
+git init --> új mappa klónozása,beállítása a repohoz
