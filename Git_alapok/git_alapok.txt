@@ -1,0 +1,7 @@
+pwd
+git --version
+cd 
+mkdir
+rmdir
+dir
+cd ../Git_alapok -->könyvtár váltás
