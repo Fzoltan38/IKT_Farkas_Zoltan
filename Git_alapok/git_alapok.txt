@@ -2,13 +2,18 @@ pwd
 git --version
 cd 
 mkdir
-rmdir
+rmdir --> mappa törlése
 dir
 cd ../Git_alapok -->könyvtár váltás
-rm -rf IKT_Farkas_Zoltan/.git/ -->klónozott mappa törlése
+rm -rf IKT_Farkas_Zoltan/.git/ --> klónozott mappa törlése
+git config --global --list --> beállítások listázása
+git config --global user.name "Felhasználó neve" --> felhasználónév beállítása
+git config --global user.emal "nev@gmail.com" --> felhasználó email beállítása
+git init repository_neve --> új repo létre hozása kitüntett ággal (master)
+git status --> változtatások megjelenítése
+git add index.html vagy git add . --> változtatások hozzáadása githez (staged area)
 
 új mappa klónozása,beállítása a repohoz -->
-
 git init
 git remote add origin https://gitlab.com/crew-chief-systems/bot
 git remote -v (for checking current repository)
