@@ -12,6 +12,12 @@ git config --global user.emal "nev@gmail.com" --> felhasználó email beállít�
 git init repository_neve --> új repo létre hozása kitüntett ággal (master)
 git status --> változtatások megjelenítése
 git add index.html vagy git add . --> változtatások hozzáadása githez (staged area)
+git commit -m "szoveg" --> változtatás komitálása
+git commit -am "szoveg" --> git add és commit egyben
+git add --patch --> lemaradt változtatások hozzáadása
+git log --oneline --> commit-ok listázása
+gitk --> commit-ok megzekintése
+git checkout commit kód --> komit álapot kikérése
 
 új mappa klónozása,beállítása a repohoz -->
 git init
