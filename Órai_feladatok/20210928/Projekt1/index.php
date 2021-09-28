@@ -21,7 +21,8 @@
       <h1>Projekt 1.0</h1>
       </div>     
 
-      <div class='container' style='margin-top:30px'> <!--Keret-->
+      <div class="container-fluid" style='padding:30px'> <!--Keret-->
+      
       <div class='row flex-column-reverse flex-sm-row'>        
       <div class='col-sm-8'"><!--Menühöz tartozó tartalom-->
       <h2>Hírek</h2>
@@ -30,13 +31,15 @@
       ?>
       </div>
 
-      <div class='col-sm-4'>
-      <h2>Bejelentkezés</h2>
+      <div class='col-sm-4 text-light bg-dark'> 
       <p>
-      <?php 
-     
-      ?>
-      </p>      
+      <h2>Bejelentkezés</h2>
+    
+        <?php 
+          include('login.php');
+        ?>
+
+      </p>
       </div>
       </div>
       </div>
