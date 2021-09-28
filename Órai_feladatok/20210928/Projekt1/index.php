@@ -21,22 +21,27 @@
       <h1>Projekt 1.0</h1>
       </div>     
 
-      <div class="container-fluid" style='padding:30px'> <!--Keret-->
-      
-      <div class='row flex-column-reverse flex-sm-row'>        
-      <div class='col-sm-8'"><!--Menühöz tartozó tartalom-->
+      <div class="container"> <!--Keret-->   
+      <div class='row flex-column-reverse flex-md-row'>
+
+      <div class='col-md-8'><!--Menühöz tartozó tartalom-->
       <h2>Hírek</h2>
       <?php
       
       ?>
       </div>
 
-      <div class='col-sm-4 text-light bg-dark'> 
+      <div class='col-md-4 text-light bg-dark'> 
       <p>
-      <h2>Bejelentkezés</h2>
+      
     
-        <?php 
-          include('login.php');
+        <?php  
+          if(isset($_GET["id"]) && $_GET["id"]=='reglap'){
+            include('reg.php');
+          }
+          else{
+            include('login.php');
+          }
         ?>
 
       </p>
