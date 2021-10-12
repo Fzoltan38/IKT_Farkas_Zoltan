@@ -1,12 +1,11 @@
 <?php
   include('classes.php');
-  if(isset($_POST['userName1']) && isset($_POST['userPass1'])){
+  if($_SERVER['REQUEST_METHOD']=='POST'){
     $log=new LoginCheck($_POST['userName1'], $_POST['userPass1']);
+  } 
+  else {
+    $log=new LoginCheck("","");
   }
-  else{
-    $log=new LoginCheck("", "");
-  }
-  
 ?>
 
 <h2>Bejelentkezés</h2>

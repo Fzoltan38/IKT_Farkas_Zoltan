@@ -10,14 +10,16 @@
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
   
   <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
+  .sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+  
   </style>
 </head>
 <body>
-      <div class='jumbotron text-center' style='margin-bottom:0'><!--Fejléc-->
+      <div class='jumbotron text-center' style='margin-bottom:0;' class="sti"><!--Fejléc-->
       <h1>Projekt 1.0</h1>
       </div>     
 
