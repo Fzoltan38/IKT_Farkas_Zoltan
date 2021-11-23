@@ -1,10 +1,3 @@
-<?php
-include('classes.php');
-if($_SERVER['REQUEST_METHOD']=='POST'){
-  $con=new Connection();
-  $reg=new RegCheck($_POST['uName'],$_POST['uPass'],$_POST['uFullName'],$_POST['uEmail']);
-}
-?>
 <h2>Regisztráció</h2>
 <form action="<?php echo $_SERVER['PHP_SELF'];?>?id=reglap" method="POST">
   <div class="form-group">
@@ -57,6 +50,6 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     <input type="email" class="form-control" name="uEmail" required placeholder="Gépeld be az email címed!">
     <small class="form-text text-muted">Ide jöhet az email címed, figyelj a formátumra!</small>
   </div>
-  <button type="submit" class="btn btn-primary">Regisztrálás</button>
+  <button type="button" class="btn btn-primary">Regisztrálás</button>
  
 </form>

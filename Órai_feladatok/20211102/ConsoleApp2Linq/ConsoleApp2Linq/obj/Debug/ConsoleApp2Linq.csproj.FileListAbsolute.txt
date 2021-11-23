@@ -1,0 +1,7 @@
+C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211102\ConsoleApp2Linq\ConsoleApp2Linq\bin\Debug\ConsoleApp2Linq.exe.config
+C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211102\ConsoleApp2Linq\ConsoleApp2Linq\bin\Debug\ConsoleApp2Linq.exe
+C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211102\ConsoleApp2Linq\ConsoleApp2Linq\bin\Debug\ConsoleApp2Linq.pdb
+C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211102\ConsoleApp2Linq\ConsoleApp2Linq\obj\Debug\ConsoleApp2Linq.csproj.AssemblyReference.cache
+C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211102\ConsoleApp2Linq\ConsoleApp2Linq\obj\Debug\ConsoleApp2Linq.csproj.CoreCompileInputs.cache
+C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211102\ConsoleApp2Linq\ConsoleApp2Linq\obj\Debug\ConsoleApp2Linq.exe
+C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211102\ConsoleApp2Linq\ConsoleApp2Linq\obj\Debug\ConsoleApp2Linq.pdb

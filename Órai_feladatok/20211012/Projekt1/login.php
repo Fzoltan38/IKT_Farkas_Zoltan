@@ -1,13 +1,3 @@
-<?php
-  include('classes.php');
-  if($_SERVER['REQUEST_METHOD']=='POST'){
-    $log=new LoginCheck($_POST['userName1'], $_POST['userPass1']);
-  } 
-  else {
-    $log=new LoginCheck("","");
-  }
-?>
-
 <h2>Bejelentkezés</h2>
 <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
   <div class="form-group">

@@ -80,7 +80,7 @@ class RegCheck extends Forms{
           }
           
         mysqli_close($c->getConn());
-        header('location:index.php');
+        //header('location:index.php');
     }
 }
 
