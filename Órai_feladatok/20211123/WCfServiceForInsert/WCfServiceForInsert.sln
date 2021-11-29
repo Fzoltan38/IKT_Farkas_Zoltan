@@ -5,11 +5,6 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCfServiceForInsert", "WCfServiceForInsert\WCfServiceForInsert.csproj", "{B79BC873-1826-46B8-86AE-14C061EB84B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{1403C978-21C1-47ED-8C36-F54F8A485529}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B79BC873-1826-46B8-86AE-14C061EB84B2} = {B79BC873-1826-46B8-86AE-14C061EB84B2}
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,10 +15,6 @@ Global
 		{B79BC873-1826-46B8-86AE-14C061EB84B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B79BC873-1826-46B8-86AE-14C061EB84B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B79BC873-1826-46B8-86AE-14C061EB84B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1403C978-21C1-47ED-8C36-F54F8A485529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1403C978-21C1-47ED-8C36-F54F8A485529}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1403C978-21C1-47ED-8C36-F54F8A485529}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1403C978-21C1-47ED-8C36-F54F8A485529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
