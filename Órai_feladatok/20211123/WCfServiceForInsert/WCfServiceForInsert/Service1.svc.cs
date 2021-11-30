@@ -19,7 +19,7 @@ namespace WCfServiceForInsert
         
         public DataSet SelectUserDetails()
         {
-            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;");
+            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;SslMode=None;");
             con.Open();
             MySqlCommand cmd = new MySqlCommand("Select * from RegistrationTable", con);
             MySqlDataAdapter sda = new MySqlDataAdapter(cmd);
@@ -31,7 +31,7 @@ namespace WCfServiceForInsert
         }
         public bool DeleteUserDetails(UserDetails userInfo)
         {
-            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;");
+            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;SslMode=None;");
             con.Open();
             MySqlCommand cmd = new MySqlCommand("delete from RegistrationTable where UserID=@UserID", con);
             cmd.Parameters.AddWithValue("@UserID", userInfo.UserID);
@@ -41,7 +41,7 @@ namespace WCfServiceForInsert
         }
         public DataSet UpdateUserDetails(UserDetails userInfo)
         {
-            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;");
+            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;SslMode=None;");
             con.Open();
             MySqlCommand cmd = new MySqlCommand("select * from RegistrationTable where UserID=@UserID", con);
             cmd.Parameters.AddWithValue("@UserID", userInfo.UserID);
@@ -54,7 +54,7 @@ namespace WCfServiceForInsert
         }
         public void UpdateRegistrationTable(UserDetails userInfo)
         {
-            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;");
+            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;SslMode=None;");
             con.Open();
             MySqlCommand cmd = new MySqlCommand("update RegistrationTable set UserName=@UserName,Password=@Password,Country=@Country, Email=@Email where UserID=@UserID", con);
             cmd.Parameters.AddWithValue("@UserID", userInfo.UserID);
@@ -68,7 +68,7 @@ namespace WCfServiceForInsert
         public string InsertUserDetails(UserDetails userInfo)
         {
             string Message;
-            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;");
+            MySqlConnection con = new MySqlConnection("SERVER=localhost;DATABASE=registration;UID=root;PASSWORD=;SslMode=None;");
             con.Open();
             MySqlCommand cmd = new MySqlCommand("insert into RegistrationTable(UserName,Password,Country,Email) values(@UserName,@Password,@Country,@Email)", con);
             cmd.Parameters.AddWithValue("@UserName", userInfo.UserName);
