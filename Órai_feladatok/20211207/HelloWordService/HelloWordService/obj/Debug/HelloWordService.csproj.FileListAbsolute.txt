@@ -1,0 +1,7 @@
+C:\Users\Tanulo\source\repos\HelloWordService\HelloWordService\bin\HelloWordService.dll.config
+C:\Users\Tanulo\source\repos\HelloWordService\HelloWordService\bin\HelloWordService.dll
+C:\Users\Tanulo\source\repos\HelloWordService\HelloWordService\bin\HelloWordService.pdb
+C:\Users\Tanulo\source\repos\HelloWordService\HelloWordService\obj\Debug\HelloWordService.csproj.AssemblyReference.cache
+C:\Users\Tanulo\source\repos\HelloWordService\HelloWordService\obj\Debug\HelloWordService.csproj.CoreCompileInputs.cache
+C:\Users\Tanulo\source\repos\HelloWordService\HelloWordService\obj\Debug\HelloWordService.dll
+C:\Users\Tanulo\source\repos\HelloWordService\HelloWordService\obj\Debug\HelloWordService.pdb

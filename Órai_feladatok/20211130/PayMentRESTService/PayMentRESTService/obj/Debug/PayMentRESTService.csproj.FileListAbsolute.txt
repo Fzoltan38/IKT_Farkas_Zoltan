@@ -19,3 +19,5 @@ C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211130\PayMentRESTServi
 C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211130\PayMentRESTService\PayMentRESTService\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211130\PayMentRESTService\PayMentRESTService\bin\System.Numerics.Vectors.dll
 C:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211130\PayMentRESTService\PayMentRESTService\bin\MySql.Data.xml
+c:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211130\PayMentRESTService\PayMentRESTService\bin\Newtonsoft.Json.dll
+c:\FarkasZoltán\Git\IKT_Farkas_Zoltan\Órai_feladatok\20211130\PayMentRESTService\PayMentRESTService\bin\Newtonsoft.Json.xml

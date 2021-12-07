@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Data;
+using Newtonsoft.Json;
 
 namespace PayMentRESTService
 {
@@ -23,11 +24,17 @@ namespace PayMentRESTService
             string sql = "SELECT * FROM customer WHERE id="+PayId;
             MySqlCommand cmd = new MySqlCommand(sql, con);
 
-            MySqlDataAdapter sda = new MySqlDataAdapter(cmd);
-            DataSet ds = new DataSet();
-            sda.Fill(ds);
-            cmd.ExecuteNonQuery();
-            con.Close();
+            MySqlDataReader datareaderSelect = cmd.ExecuteReader();
+            datareaderSelect.Read();
+
+            Buyers b = new Buyers();
+
+            b.Id = int.Parse(datareaderSelect.GetValue(0).ToString());
+            b.Name = datareaderSelect.GetValue(1).ToString();
+            b.City= datareaderSelect.GetValue(2).ToString();
+
+            string json = JsonConvert.SerializeObject(b);
+            return json;
 
         }
 

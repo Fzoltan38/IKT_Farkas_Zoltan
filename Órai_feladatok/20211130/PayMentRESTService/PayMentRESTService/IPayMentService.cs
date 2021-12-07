@@ -17,7 +17,7 @@ namespace PayMentRESTService
         [OperationContract]
         [WebInvoke(Method = "GET",
         UriTemplate = "/PayBill/{PayId}",
-        BodyStyle = WebMessageBodyStyle.Wrapped, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+        BodyStyle = WebMessageBodyStyle.WrappedRequest, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         string PayBill(string PayId);
 
         //To Update records  
