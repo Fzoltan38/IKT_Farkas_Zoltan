@@ -1,0 +1,5 @@
+makecert.exe -sr CurrentUser -ss My sha1 -n CN=AuthenticationWCF_Service -sky exchange -pe
+
+https://www.microsoft.com/en-us/download/confirmation.aspx?id=8279
+
+C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin
